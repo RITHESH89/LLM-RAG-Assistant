@@ -1,4 +1,4 @@
-# 🧠 LLM RAG Assistant
+## LLM RAG Assistant
 
 An intelligent document-based Q&A system using Retrieval-Augmented Generation (RAG).  
 Upload PDFs and get accurate, context-aware answers powered by LLMs.
