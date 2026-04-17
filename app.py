@@ -7,7 +7,7 @@ load_dotenv()
 
 st.set_page_config(page_title="RAG Assistant", layout="wide")
 
-st.title("🧠 LLM RAG Assistant")
+st.title(" LLM RAG Assistant")
 st.write("Upload a PDF and ask questions from it!")
 
 uploaded_file = st.file_uploader("Upload your PDF", type="pdf")
@@ -29,5 +29,5 @@ if uploaded_file:
         with st.spinner("Generating answer..."):
             response = qa.run(query)
 
-        st.write("### 📌 Answer:")
+        st.write("###  Answer:")
         st.write(response)
