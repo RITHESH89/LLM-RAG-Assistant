@@ -4,7 +4,6 @@ An intelligent document-based Q&A system using Retrieval-Augmented Generation (R
 Upload PDFs and get accurate, context-aware answers powered by LLMs.
 
 
-
 ##  Features
 
 *  Document-based Q&A
@@ -34,4 +33,3 @@ Upload PDFs and get accurate, context-aware answers powered by LLMs.
 * Successfully retrieves relevant context from documents
 * Generates precise answers instead of generic responses
 * Reduces hallucination compared to normal LLM queries
-
