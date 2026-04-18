@@ -1,7 +1,9 @@
+fastapi
+uvicorn
+streamlit
 langchain
 openai
 faiss-cpu
-streamlit
 pypdf
-tiktoken
+requests
 python-dotenv
