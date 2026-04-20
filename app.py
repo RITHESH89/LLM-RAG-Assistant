@@ -11,7 +11,7 @@ from components.sidebar import sidebar
 load_dotenv()
 
 st.set_page_config(page_title="RAG Chatbot", layout="wide")
-st.title("🤖 Advanced RAG Chatbot")
+st.title(" Advanced RAG Chatbot")
 
 sidebar()
 
@@ -20,7 +20,7 @@ if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 
 uploaded_files = st.file_uploader(
-    "📂 Upload PDF files",
+    " Upload PDF files",
     type=["pdf"],
     accept_multiple_files=True
 )
