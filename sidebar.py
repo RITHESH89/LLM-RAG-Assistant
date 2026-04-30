@@ -8,6 +8,7 @@ def sidebar():
         "Upload PDFs and ask questions.\n"
         "Uses RAG (Retrieval-Augmented Generation)."
     )
+    
 
     if st.sidebar.button(" Clear Chat"):
         st.session_state.chat_history = []
